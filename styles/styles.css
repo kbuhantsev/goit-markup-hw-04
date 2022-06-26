@@ -233,19 +233,20 @@ img {
 }
 
 .icon-antenna::before {
-  background-image: url('/images/free-icon.png');
+  background-image: url('/images/goals/antenna-1.svg');
 }
 
 .icon-clock::before {
-  background-image: url('/images/free-icon.png');
+  background-image: url('/images/goals/clock-1.svg');
 }
 
 .icon-computer::before {
-  background-image: url('/images/free-icon.png');
+  background-image: url('/images/goals/diagram-1.svg');
 }
 
 .icon-astronaut::before {
-  background-image: url('/images/free-icon.png');
+  background-image: url('/images/svg/sprite.svg#astronaut');
+  background-size: contain;
 }
 
 .goals-item {
