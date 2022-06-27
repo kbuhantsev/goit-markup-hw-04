@@ -13,6 +13,7 @@
   --potrfolio-cart-border-color: #eeeeee;
   --footer-background-color: #2f303a;
   --card-set-gap: 30px;
+  --clients-fill-color: #afb1b8;
 }
 
 body {
@@ -163,8 +164,29 @@ img {
   margin-left: auto;
 }
 
-.header-contacts .item + .item {
-  margin-left: 50px;
+.header-ref {
+  display: flex;
+  align-items: center;
+  fill: var(--main-grey-color);
+}
+
+.header-ref:hover,
+.header-ref:focus {
+  color: var(--accent-blue-color);
+  fill: var(--accent-blue-color);
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+}
+
+.header-contacts .contacts-item + .contacts-item {
+  margin-left: 30px;
+}
+
+.contacts-icon {
+  margin-right: 10px;
 }
 
 /* Hero */
@@ -219,34 +241,10 @@ img {
   display: flex;
 }
 
-.goals-item::before {
-  display: block;
+.goals-icon {
   background-color: var(--btn-filter-bg-color);
-  height: 120px;
   padding: 25px 100px;
   margin-bottom: 30px;
-
-  content: '';
-  background-size: 70px 70px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.icon-antenna::before {
-  background-image: url('/images/goals/antenna-1.svg');
-}
-
-.icon-clock::before {
-  background-image: url('/images/goals/clock-1.svg');
-}
-
-.icon-computer::before {
-  background-image: url('/images/goals/diagram-1.svg');
-}
-
-.icon-astronaut::before {
-  background-image: url('/images/svg/sprite.svg#astronaut');
-  background-size: contain;
 }
 
 .goals-item {
@@ -328,6 +326,29 @@ img {
   text-align: center;
 }
 
+/* Regular Customers */
+
+.customers-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-link {
+  display: inline-block;
+  height: 92px;
+  width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+  fill: var(--clients-fill-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--accent-blue-color);
+  fill: var(--accent-blue-color);
+}
+
 /* Footer */
 
 .section-footer {
@@ -394,25 +415,6 @@ img {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
-
-/* Regular Customers */
-
-.customers-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.client-link {
-  display: inline-block;
-  height: 92px;
-  width: 170px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-
-/* .client-image {
-  fill: #000;
-} */
 
 /* list Of Works */
 

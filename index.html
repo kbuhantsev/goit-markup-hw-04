@@ -41,13 +41,19 @@
           </ul>
         </nav>
         <ul class="list header-contacts">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link header-contacts link-hover"
-              >info@devstudio.com</a
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="link header-ref">
+              <svg class="contacts-icon" width="16px" height="12px">
+                <use href="/images/svg/sprite.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link header-contacts link-hover"
+
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="link header-ref"
+              ><svg class="contacts-icon" width="10px" height="16px">
+                <use href="/images/svg/sprite.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
@@ -71,25 +77,37 @@
         <div class="container">
           <h2 class="visually-hidden">Наши цели</h2>
           <ul class="list goals-list">
-            <li class="goals-item icon-antenna">
+            <li class="goals-item">
+              <svg class="goals-icon" width="270px" height="120px">
+                <use href="/images/svg/sprite.svg#antenna"></use>
+              </svg>
               <p class="goals-title">Внимание к деталям</p>
               <p class="goals-description">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
             <li class="goals-item icon-clock">
+              <svg class="goals-icon" width="270px" height="120px">
+                <use href="/images/svg/sprite.svg#clock"></use>
+              </svg>
               <p class="goals-title">Пунктуальность</p>
               <p class="goals-description">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
             <li class="goals-item icon-computer">
+              <svg class="goals-icon" width="270px" height="120px">
+                <use href="/images/svg/sprite.svg#diagram"></use>
+              </svg>
               <p class="goals-title">Планирование</p>
               <p class="goals-description">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li class="goals-item icon-astronaut">
+              <svg class="goals-icon" width="270px" height="120px">
+                <use href="/images/svg/sprite.svg#astronaut"></use>
+              </svg>
               <p class="goals-title">Современные технологии</p>
               <p class="goals-description">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -151,30 +169,53 @@
           </ul>
         </div>
       </section>
+      <!-- Regular Customers -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title team-title">Постоянные клиенты</h2>
+          <ul class="list customers-list">
+            <li>
+              <a href="#" class="link client-link">
+                <svg width="106px" height="60px">
+                  <use href="/images/svg/sprite.svg#client-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="link client-link"
+                ><svg width="106px" height="60px">
+                  <use href="/images/svg/sprite.svg#client-2"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="link client-link"
+                ><svg width="106px" height="60px">
+                  <use href="/images/svg/sprite.svg#client-3"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="link client-link"
+                ><svg width="106px" height="60px">
+                  <use href="/images/svg/sprite.svg#client-4"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="link client-link"
+                ><svg width="106px" height="60px">
+                  <use href="/images/svg/sprite.svg#client-5"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="link client-link"
+                ><svg width="106px" height="60px">
+                  <use href="/images/svg/sprite.svg#client-6"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <!-- Regular Customers -->
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title team-title">Постоянные клиенты</h2>
-        <ul class="list customers-list">
-          <li class="customers-item">
-            <a href="#" class="link client-link">
-              <img
-                src="/images/clents/client-1.svg"
-                alt="Логотип клиента"
-                width="170"
-                class="client-image"
-              />
-            </a>
-          </li>
-          <li class="customers-item"><a href="#" class="link client-link"></a></li>
-          <li class="customers-item"><a href="#" class="link client-link"></a></li>
-          <li class="customers-item"><a href="#" class="link client-link"></a></li>
-          <li class="customers-item"><a href="#" class="link client-link"></a></li>
-          <li class="customers-item"><a href="#" class="link client-link"></a></li>
-        </ul>
-      </div>
-    </section>
+
     <!-- Footer -->
     <footer class="section-footer">
       <div class="container">
