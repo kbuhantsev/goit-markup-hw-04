@@ -13,7 +13,7 @@
   --potrfolio-cart-border-color: #eeeeee;
   --footer-background-color: #2f303a;
   --card-set-gap: 30px;
-  --clients-fill-color: #afb1b8;
+  --icons-fill-color: #afb1b8;
 }
 
 body {
@@ -324,6 +324,36 @@ img {
   line-height: 1.2;
   color: var(--main-grey-color);
   text-align: center;
+  margin-bottom: 16px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links .social-item + .social-item {
+  margin-left: 10px;
+}
+
+.social-link {
+  display: block;
+  text-align: center;
+  align-items: center;
+  background-color: var(--main-white-color);
+  padding: 12px;
+
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+
+  fill: var(--icons-fill-color);
+  /* outline: 1px solid tomato; */
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-blue-color);
+  fill: var(--main-white-color);
 }
 
 /* Regular Customers */
@@ -340,7 +370,7 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 16px 32px;
-  fill: var(--clients-fill-color);
+  fill: var(--icons-fill-color);
 }
 
 .client-link:hover,
@@ -355,6 +385,32 @@ img {
   background-color: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-item-adress {
+  margin-right: 70px;
+}
+
+.footer-item-links .social-link {
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--main-white-color);
+}
+
+.footer-item-links .social-link:hover,
+.footer-item-links .social-link:focus {
+  background: var(--accent-blue-color);
+}
+
+.footer-slogan {
+  padding-top: 12px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--main-white-color);
 }
 
 .section-footer .site-logo {
