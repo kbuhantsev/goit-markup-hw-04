@@ -342,10 +342,8 @@ img {
 
 .social-link {
   display: block;
-  text-align: center;
-  align-items: center;
-  background-color: var(--main-white-color);
   padding: 12px;
+  background-color: var(--main-white-color);
 
   border-radius: 50%;
   width: 44px;
