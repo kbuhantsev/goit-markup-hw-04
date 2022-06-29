@@ -111,7 +111,11 @@ img {
   text-align: center;
 }
 
-/* Header */
+/*
+|========================================
+| Header
+|========================================
+*/
 
 .header {
   font-weight: 500;
@@ -189,7 +193,11 @@ img {
   margin-right: 10px;
 }
 
-/* Hero */
+/*
+|========================================
+| Hero
+|========================================
+*/
 
 .section-hero {
   background-color: var(--hero-background-color);
@@ -235,7 +243,11 @@ img {
   min-width: 200px;
 }
 
-/* Goals */
+/*
+|========================================
+| Goals
+|========================================
+*/
 
 .goals-list {
   display: flex;
@@ -275,7 +287,11 @@ img {
   color: var(--main-grey-color);
 }
 
-/* What are we doing */
+/*
+|========================================
+| What are we doing
+|========================================
+*/
 
 .section-works {
   padding-top: 0;
@@ -290,7 +306,11 @@ img {
   justify-content: space-between;
 }
 
-/* Our team */
+/*
+|========================================
+| Our team
+|========================================
+*/
 
 .section-team {
   background-color: var(--btn-filter-bg-color);
@@ -359,7 +379,11 @@ img {
   fill: var(--main-white-color);
 }
 
-/* Regular Customers */
+/*
+|========================================
+| Regular Customers
+|========================================
+*/
 
 .customers-list {
   display: flex;
@@ -383,7 +407,11 @@ img {
   fill: var(--accent-blue-color);
 }
 
-/* Footer */
+/*
+|========================================
+| Footer
+|========================================
+*/
 
 .section-footer {
   background-color: var(--footer-background-color);
@@ -442,7 +470,11 @@ img {
   margin-bottom: 10px;
 }
 
-/* Portfolio */
+/*
+|========================================
+| Portfolio
+|========================================
+*/
 
 .list-filter {
   display: flex;
@@ -476,7 +508,11 @@ img {
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* list Of Works */
+/*
+|========================================
+| list Of Works
+|========================================
+*/
 
 .portfolio-title {
   font-weight: 700;
